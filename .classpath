@@ -2,14 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/gherkin-2.12.2.jar"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/cucumber-jvm-deps-1.0.3.jar"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/cucumber-junit-1.2.0.jar"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/cucumber-html-0.2.3.jar"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/cucumber-java-1.2.0.jar"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/selenium-server-standalone-2.44.0.jar"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/hamcrest-all-1.3.jar"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/junit-4.11.jar"/>
-	<classpathentry kind="lib" path="/home/alistir/Downloads/tmp/cucumber-core-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/cucumber-core-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/cucumber-java-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/cucumber-junit-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="/home/alistir/projects/Cucumber/CucumberConcept/bin/selenium-server-standalone-2.44.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
