@@ -2,10 +2,7 @@ package cucumber;
 
 import static org.junit.Assert.*;
 import cucumber.api.PendingException;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.en.*;
 
 public class PassingParametersStepDefinitions {
 	
@@ -26,12 +23,11 @@ public class PassingParametersStepDefinitions {
 	}
 	
 	@And("^the quote ID is \"(.*?)\"$")
-	public void the_quote_ID_is(String arg1) throws Throwable {
+	public void doesQuoteIdMatch(String arg1) throws Throwable {
 		
 		System.out.println(arg1.substring(0, 3));
 		assertTrue(arg1.substring(0, 3).equals("111")); 
-		
-		System.out.println("--------------------------------------------------\n\n");
+
 	}
 
 }

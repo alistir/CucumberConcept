@@ -7,6 +7,7 @@ import java.util.Map;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class DataTableStepDefinitions {
@@ -23,7 +24,7 @@ public class DataTableStepDefinitions {
 		
 	}
 	
-	@And("^a ticket is created on Universe$")
+	@Then("^a ticket is created on Universe$")
 	//public void isUniverseTicketValid(DataTable table) throws Throwable {
 	public void isUniverseTicketValid(Map<String, String> table) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
