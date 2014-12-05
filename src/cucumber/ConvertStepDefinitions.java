@@ -17,7 +17,7 @@ public class ConvertStepDefinitions {
 	}
 	
 	@Then("^a ticket is created$")
-	public void TicketCreatedInUniverse() throws Throwable {
-		System.out.println("I can see the ticket in Universe");
+	public void a_ticket_is_created() throws Throwable {
+	    
 	}
 }

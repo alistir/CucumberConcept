@@ -5,8 +5,11 @@ Scenario: user converts quote to ticket
 	When I select the convert to ticket
 	And the quote is valid
 	Then the quote saves to Universe
-	And a ticket is created
-	
+	And a blah is created 
+	|field|value|
+	|name|ben|
+	|orderno|1234|
+	|price|54.25|
 	
 # you can add multiple scenarios to a feature
 #Scenario: next scenario
